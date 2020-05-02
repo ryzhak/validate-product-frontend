@@ -8,7 +8,7 @@ body {
 }
 
 .logo .logo__image {
-  border-radius: 95px;
+  border-radius: 15px;
 }
 
 .screenshots .screenshots__container-1 {
@@ -25,8 +25,7 @@ body {
 }
 
 .app-desc .app-desc__subtitle {
-  font-size: 3em;
-  font-weight: bold;
+  font-size: 2em;
 }
 
 .app-desc .app-desc__feature {
@@ -43,9 +42,20 @@ body {
   }
 }
 
+@media (max-width: 1600px) {
+  body {
+    font-size: 10px;
+  }
+}
+
 @media (max-width: 767px) {
   body {
     background: #b843fe;
+    font-size: 14px;
+  }
+
+  .logo {
+    display: none;
   }
 
   .screenshots .screenshots__container-1 {

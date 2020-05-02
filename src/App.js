@@ -63,7 +63,7 @@ class App extends React.Component {
         {/* main content */}
         <div className="row mt-5">
           {/* screenshots */}
-          <div className="col-md-6 screenshots">
+          <div className="order-2 order-md-1 col-md-6 screenshots">
             <div className="row">
               <div className="col-md-4 col-lg-3 offset-lg-3 screenshots__container-1">
                 <img src="/assets/screenshot_with_phone_1.png" className="img-fluid" alt="screenshot_1" />
@@ -76,7 +76,7 @@ class App extends React.Component {
               </div>
             </div>
           </div>
-          <div className="col-md-6 mb-5">
+          <div className="order-1 order-md-2 col-md-6 mb-5">
             {/* app description */}
             <div className="row app-desc">
               <div className="col-md-12 col-lg-10 offset-lg-2">
